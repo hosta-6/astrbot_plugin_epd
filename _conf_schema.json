@@ -1,0 +1,8 @@
+{
+  "cooldown": {
+    "description": "冷却时间（秒）",
+    "type": "int",
+    "default": 15,
+    "hint": "同一个人两次推图之间至少间隔多久，防手抖刷屏"
+  }
+}

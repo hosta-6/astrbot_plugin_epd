@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# 运行产物
+*.bin
+std_preview.png
+std_photo.png
+frame.bin
+inbox/
+.DS_Store

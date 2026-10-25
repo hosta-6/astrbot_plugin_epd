@@ -1,0 +1,19 @@
+name: astrbot_plugin_epd
+display_name: 墨水屏推送
+short_desc: 群里一句话就能推到小玖那块 768×552 四色墨水屏上
+desc: >-
+  把群里的文字或图片推到 ESP32-C3 + moink 墨水屏上：
+  1) /epd 文字 —— 推一行大字；
+  2) /epd + 图片 —— 按标准调色管线处理（自动色阶、暖色提亮、冷色压成干净黑白、锐化30、FS抖动85%）再上屏；
+  3) /epd 存 文字 —— 同时存进板子的 8 个图库槽位；
+  4) 有冷却时间，防手抖刷屏。
+help: >-
+  /epd 想说的话、/epd + 图、/epd 存 想说的话、/epd 帮助
+version: 0.1.0
+author: 小玖
+repo: "https://github.com/hosta-6/astrbot_plugin_epd"
+astrbot_version: ">=4.17.0"
+tags:
+  - 硬件
+  - 娱乐
+  - 群互动
